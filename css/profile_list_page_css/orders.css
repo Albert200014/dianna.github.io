@@ -1,0 +1,544 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.page_context_side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page_context_side_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.page_context_side_block_title {
+    color: #949494;
+    font-family: "Leonetta";
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.page_context_side_block_btn {
+    padding: 10px 20px;
+    background: #252324;
+    border: none;
+    cursor: pointer;
+
+
+    color: #FFF;
+    text-align: center;
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+
+.page_context_side_no_empty h5 {
+    color: #252324;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 34px;
+}
+
+.empty_order_hide{
+  display: none;
+}
+
+/*================================================= style have to work when dont empty orders ================================================*/
+.page_context_side_no_empty_block{
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-right: 64px;
+}
+
+.hide_empty_block{
+    display: none;
+}
+
+.page_context_side_no_empty {
+    width: 100%;
+}
+
+
+.page_context_side_no_empty_card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.page_context_side_no_empty_card button {
+    border: none;
+    background: inherit;
+    cursor: pointer;
+}
+
+.page_context_side_no_empty_card_info {
+    display: flex;
+    justify-content: space-between;
+    width: 97%;
+    border: 0.5px solid #949494;
+    padding-left: 25px;
+    padding-right: 19px;
+    padding-top: 18px;
+    padding-bottom: 16px;
+}
+
+.page_context_side_no_empty_card_info_left_side {
+    display: flex;
+}
+
+
+.page_context_side_no_empty_card_info_name_address_block{
+    padding-right: 35px;
+}
+
+.page_context_side_no_empty_card_info_email_cardName {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.page_context_side_no_empty_card_info_email_cardName div {
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+}
+
+.page_context_side_no_empty_card_info_name_address_block p{
+    color: #252324;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.page_context_side_no_empty_card_info_name_address_block_p1 {
+    padding-bottom: 2px;
+}
+
+.page_context_side_no_empty_card_info_left_right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.page_context_side_no_empty_card_info_left_right button{
+    color: #000;
+    font-family: Segoe UI;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: normal;
+    letter-spacing: 1.4px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    margin-bottom: 9px;
+}
+
+.page_context_side_no_empty_card_info_left_right p {
+    color: #252324;
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: normal;
+}
+
+.delete_order {
+    margin-top: 80px;
+    background: #F5F4F2;
+    position: relative;
+    width: auto;
+    padding: 20px 20px 40px 20px;
+   box-sizing: border-box;
+}
+
+.btn_close_delete_block{
+    position: absolute;
+    cursor: pointer;
+    top: 20px;
+    right: 20px;
+}
+
+.block_top_side p {
+    color: #252324;
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: normal;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+}
+
+.delete_order h5{
+    padding-top: 62px;
+    padding-bottom: 62px;
+    text-align: center;
+    color: #000;
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: normal;
+}
+
+.delete_order_btn_block {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+
+.delete_order_btn_block_deleteBtn {
+    padding: 10px 62px;
+    background: none;
+    cursor: pointer;
+    color: #252324;
+    text-align: center;
+    font-family: Segoe UI;
+    border: 1px solid #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+
+.delete_order_btn_block_cancelBtn {
+    padding: 10px 62px;
+    background: black;
+    cursor: pointer;
+    color: white;
+    border: none;
+    text-align: center;
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+
+.details_order {
+    margin-top: 140px;
+    width: 50%;
+    background: white;
+    position: relative;
+    padding: 20px 20px 40px 20px;
+}
+
+.details_order_shoes_block {
+    padding-left: 17px;
+    padding-right: 16px;
+    padding-top: 23px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.details_order_shoes_block_item {
+    display: flex;
+    align-items: center;
+    column-gap: 36px;
+}
+
+.details_order_shoes_block_item_context {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.details_order_shoes_block_item_context_text h6{
+    color: #000;
+    font-family: Segoe UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 5px;
+}
+
+.details_order_shoes_block_item_context_desc{
+    color: #000;
+    font-family: Segoe UI;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: normal;
+}
+
+.details_order_shoes_block_item_context_gin {
+    color: #000;
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    padding-bottom: 5px;
+    line-height: normal;
+}
+
+.details_order_shoes_block_item_context_text button {
+    color: #000;
+    font-family: Segoe UI;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: normal;
+    letter-spacing: 1.4px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    background: none;
+    border: none;
+}
+
+.details_order_shoes_block_item_context_select {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    width: 35%;
+}
+.page_context_side_no_empty {
+    padding-left: 20px;
+}
+
+.details_order_shoes_block_item_context_select div {
+    border-bottom: 1px solid black;
+    padding-bottom: 12px;
+}
+
+
+.details_order_shoes_block_item_context_select select {
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+.details_order_shoes_block_item_context_select select  {
+    color: #949494;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    outline: none;
+}
+
+/*======================================================================================= Media =========================================================*/
+@media only screen and (min-width:1024px) and (max-width:1440px) {
+    .page_context_side_no_empty_card_info_email_cardName p, .page_context_side_no_empty_card_info_left_right p, .page_context_side_no_empty_card_info_name_address_block p {
+        font-size: 16px;
+    }
+
+    .delete_order {
+        margin-top: 80px;
+        background: #F5F4F2;
+        position: relative;
+        width: 35%;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+    .card_padding_right {
+        padding-right: 20px;
+    }
+
+    .details_order_shoes_block_item_context_text h6 {
+        color: #000;
+        font-size: 15px;
+    }
+
+    .details_order_shoes_block_item_context_text p {
+        font-size: 12px;
+    }
+
+    .details_order_shoes_block_item {
+        display: flex;
+        align-items: center;
+        column-gap: 24px;
+    }
+
+
+    .page_context_side_no_empty_card_info_name_address_block p {
+        color: #252324;
+        font-size: 12px;
+    }
+
+    .page_context_side_no_empty_card_info_left_right button {
+        color: #000;
+        font-size: 12px;
+    }
+
+    .page_context_side_no_empty_card_info_left_right p {
+        color: #252324;
+        font-family: Segoe UI;
+        font-size: 12px;
+    }
+
+    .page_context_side_no_empty_card_info_email_cardName {
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+        justify-content: space-between;
+        width: 36%;
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width:767px) {
+    .card_padding_right {
+        padding-right: 0;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .delete_order {
+        width: 90%;
+    }
+
+    .delete_order_btn_block_deleteBtn, .delete_order_btn_block_cancelBtn {
+        padding: 4px 20px;
+        font-size: 12px;
+        border: 1px solid;
+    }
+
+    .details_order {
+        padding: 10px 10px 14px 10px;
+        margin-top: 20px;
+        width: 90%;
+    }
+
+    .page_context_side_no_empty {
+        padding-left: 0px;
+    }
+
+    .page_context_side_no_empty_card_info_left_side {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .page_context_side_no_empty_card_info_left_right button {
+        margin: auto;
+    }
+
+    .page_context_side_no_empty_card_info {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 18px;
+        align-items: center;
+        margin-bottom: 5px;
+        flex-wrap: wrap;
+        row-gap: 10px;
+        padding-bottom: 16px;
+    }
+
+    .details_order_shoes_block_item_context_text1 {
+        font-size: 12px;
+        padding-top: 0px;
+        padding-bottom: 4px;
+    }
+
+    .details_order_shoes_block_item_context_text2 {
+        color: #000;
+        font-size: 12px;
+    }
+
+    .details_order_shoes_block_item_context_text button {
+        font-size: 13px;
+    }
+
+    .delete_order_btn_block {
+        column-gap: 10px;
+    }
+
+    .page_context_side_no_empty_card_info_name_address_block p {
+        color: #252324;
+        font-size: 12px;
+    }
+
+    .page_context_side_no_empty_card_info_email_cardName {
+        margin-top: 5px;
+        font-size: 12px;
+    }
+
+    .page_context_side_no_empty_card_info_left_right p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .page_context_side_no_empty h5 {
+        color: #252324;
+        font-size: 20px;
+        text-align: center;
+        padding-top: 15px;
+    }
+
+    .page_context_side_no_empty_card_info_name_address_block {
+        padding-right: 0px;
+    }
+
+    .delete_order_btn_block_deleteBtn, .delete_order_btn_block_cancelBtn {
+        padding: 4px 20px;
+        font-size: 12px;
+        border: 1px solid;
+    }
+
+    .block_top_side p {
+        color: #252324;
+        font-size: 11px;
+    }
+
+    .delete_order h5 {
+        padding-top: 29px;
+        padding-bottom: 29px;
+    }
+
+    .details_order_shoes_block_item img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .details_order_shoes_block_item_context_text h6 {
+        color: #000;
+        font-size: 15px;
+    }
+
+    .details_order_shoes_block {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+
+    .details_order_shoes_block_item {
+        column-gap: 5px;
+        flex-direction: column;
+    }
+
+    .details_order_shoes_block_item_context {
+        width: 100%;
+    }
+
+    .details_order_shoes_block_item img {
+        width: 81px;
+        height: 75px;
+    }
+}

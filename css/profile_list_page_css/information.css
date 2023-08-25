@@ -1,0 +1,262 @@
+.information_page_item_title {
+    padding-bottom: 16px;
+}
+
+.information_page_item_text {
+    color: #252324;
+    font-family: Segoe UI;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: normal;
+    padding-bottom: 12px;
+}
+.card_block_information {
+    padding-top: 16px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-bottom: 18px;
+}
+
+.update_adres {
+    position: relative;
+    width: 30%;
+    background: white;
+    margin-top: 112px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    padding-top: 15px;
+    box-sizing: border-box;
+}
+.input_block {
+    text-align: left;
+}
+
+block_top_side {
+    display: flex;
+    align-items: center;
+    column-gap: 17px;
+}
+
+.inform_content_right_side {
+    padding-left: 138px;
+}
+.address_information {
+    padding-bottom: 28px ;
+    height: auto ;
+    overflow: visible;
+    position: relative;
+}
+
+.when_no_card {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.when_no_card button{
+    color: #000;
+    font-family: Leonetta;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    background: inherit;
+    border: none;
+    text-transform: uppercase;
+}
+
+.information_addd_card_block {
+    height: 100%;
+    align-items: center;
+}
+
+.add_card {
+    position: relative;
+}
+
+.add_card {
+    background: white;
+    width: 20%;
+    padding-top: 22px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+}
+
+.input_block_add_cards {
+    padding-top: 30px;
+}
+
+.block_top_side {
+display: flex;
+    align-items: center;
+    column-gap: 17px;
+}
+
+.block_top_side p {
+    color: #252324;
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: normal;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+}
+
+.btn_close_inform {
+    top: 24px;
+}
+
+.input_block_add_cards p{
+    color: #252324;
+    font-family: Segoe UI;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 8px;
+}
+
+.input_block_add_cards input{
+    width: 100%;
+    color: #252324;
+    font-family: Segoe UI;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 12px 11px;
+}
+
+.input_block_add_cards button {
+    width: 100%;
+    padding: 10px 0;
+    box-sizing: border-box;
+    color: #FFF;
+    text-align: center;
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    margin-top: 39px;
+    border: none;
+    background: black;
+}
+
+.btn_sign_ing {
+    margin-top: 15px;
+}
+
+.update_addres_book {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    background: none;
+    border: none;
+}
+
+.btn_plyus {
+    background: inherit;
+    border: none;
+    position: absolute;
+    bottom: 16px;
+    right: 20px;
+}
+
+/*tval klassov karavarum enq te vor blocke ashxati default erb vor card chka ays classe*/
+/*tvaca cardi blockin nuyn inqe ajn divin vori classe carda isk ete card chka ays classe petqa*/
+/*tanq card avelacnelu blokin*/
+.block_hide{
+    display: none;
+}
+
+
+
+.card {
+    margin-left: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 23px;
+    padding-bottom: 16px;
+    border-radius: 10px;
+    border: 1px solid #252324;
+    width: 70%;
+}
+
+.card .logo {
+    width: 83px;
+    height: 27px;
+    flex-shrink: 0;
+}
+
+.balance{
+    color: #000;
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 21px;
+    padding-bottom: 19px;
+}
+
+.card_number_block {
+    display: flex;
+    padding-bottom: 12px;
+    column-gap: 17px;
+}
+
+.card_name_and_date {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (min-width:1024px) and (max-width:1440px) {
+    .page_context_side_item1, .page_context_side_item2 {
+        width: 45%;
+    }
+    .update_adres {
+        position: relative;
+        width: 23%;
+    }
+
+    .add_card {
+        background: white;
+        width: 30%;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+    .add_card {
+        background: white;
+        width: 44%;
+    }
+
+    .inform_content_right_side {
+        padding-left: 20px;
+    }
+
+}
+
+@media only screen and (min-width:320px) and (max-width:767px) {
+
+    .add_card {
+        background: white;
+        width: 90%;
+    }
+
+    .inform_content_right_side {
+        padding-left: 0;
+    }
+
+}

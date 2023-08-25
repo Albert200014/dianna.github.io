@@ -1,0 +1,341 @@
+/*========================================= footer top =========================================*/
+.footer_top {
+    padding: 61px 118px 54px 118px;
+    width: 100%;
+    height: 350px;
+    background: #DEDEDE;
+}
+
+.footer_top_block {
+    margin-top: 49px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.padding_bottom_footer{
+    padding-bottom: 12px;
+}
+
+.footer_top_block p, .footer_top_block a {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: normal;
+}
+
+.find_social_media_block {
+    margin-top: 11px;
+    display: flex;
+    align-items: flex-end;
+    column-gap: 25px;
+}
+
+.footer_top_block_links_title {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+}
+
+.padding_bottom_footer2 {
+    padding-bottom: 21px;
+}
+
+.padding_bottom_footer3 {
+    padding-bottom: 12px;
+}
+
+.footer_top_block_links_title {
+    padding-bottom: 14px;
+}
+
+.footer_top_block_subscribe {
+    width: 34%;
+}
+
+
+.footer_subscribe_block_form {
+    width: 100%;
+    background: red;
+    position: relative;
+
+}
+
+.footer_subscribe_block_form form input{
+    width: 100%;
+    border: none;
+    background: #F5F4F2;
+    padding: 12px 16px;
+}
+
+.footer_subscribe_block_form form input::placeholder{
+    color: #949494;
+    /* small */
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.footer_subscribe_block_form form button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    border: none;
+    background: black;
+    cursor: pointer;
+    padding: 12px 14px 12px 17px;
+}
+
+/*========================================= footer bottom =========================================*/
+.footer_bottom {
+    display: flex;
+    justify-content: space-between;
+    padding:20px 20px 24px 20px;
+}
+
+.footer_bottom_left_side p{
+    color: #949494;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.footer_bottom_right_side {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.footer_bottom_right_side p {
+    color: #252324;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.footer_bottom_right_side_row {
+    width: 1px;
+    height: 100%;
+    background: #000;
+}
+/*======================================================================================= Media =========================================================*/
+@media only screen and (min-width:1024px) and (max-width:1440px) {
+    .footer_top {
+        padding: 61px 118px 42px 118px;
+    }
+
+
+    .footer_top_block_shopInfo {
+        width: 313px;
+        padding-right: 20px;
+    }
+
+    .footer_logo_block {
+        display: block;
+        width: 147px;
+        height: 47px;
+    }
+
+
+    .footer_logo_block img {
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+    .footer_top {
+        padding: 61px 70px 54px 70px;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+
+    .footer_top_block {
+        flex-wrap: wrap;
+    }
+
+    .footer_top_block_subscribe {
+        width: 100%;
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .footer_subscribe_block_form {
+        width: 65%;
+        position: relative;
+        margin: auto;
+    }
+
+    .footer_top_block_links {
+        width: 45%;
+    }
+
+    .footer_top_block_subscribe {
+        width: 100%;
+    }
+
+    .footer_top_block_shopInfo {
+        width: 313px;
+    }
+
+    .footer_top_block_shopInfo {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width:767px) {
+    .navbar_right_side_call_block {
+        padding-right: 0;
+        border: none;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        row-gap: 15px;
+    }
+
+    .navbar_right_side {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 8px;
+    }
+
+
+    .product_list {
+        display: none;
+    }
+
+    .title_block h1 {
+        color: #949494;
+        font-size: 33px;
+    }
+
+    .title_block {
+        text-align: center;
+        padding: 0px 10px 29px 10px;
+    }
+
+    .footer_logo_block{
+        width: 28%;
+        height: 35px;
+        display: block;
+    }
+
+   .footer_top_block a {
+        font-size: 13px;
+    }
+
+    .footer_subscribe_block_p {
+        font-size: 10px;
+    }
+
+    .padding_bottom_footer3 {
+        padding-bottom: 0;
+    }
+
+    .find_social_media_block{
+        align-items: center;
+    }
+
+     .footer_top_block a {
+        font-size: 12px;
+    }
+
+    .footer_top_block p{
+        font-size: 10px;
+        padding-bottom: 5px;
+    }
+
+    .footer_subscribe_block_form form input {
+        padding: 8px 10px;
+    }
+
+    .footer_subscribe_block_form form button {
+        padding: 12px 5px 12px 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer_top_block {
+        flex-wrap: wrap;
+        row-gap: 35px;
+        justify-content: center;
+    }
+
+    .footer_top_block_shopInfo {
+        width: 100%;
+    }
+
+
+    .footer_top_block_links {
+        padding-right: 28px;
+        width: 50%;
+        box-sizing: border-box;
+    }
+
+    .footer_top_block_links_title {
+        color: #000;
+        font-size: 13px;
+    }
+
+    .footer_bottom {
+        flex-direction: column;
+    }
+
+
+    .footer_logo_block img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .footer_top_block {
+        margin-top: 8px;
+    }
+
+    .footer_top {
+        padding: 35px 20px 45px 20px;
+        height: auto;
+        margin: auto;
+    }
+
+    .footer_bottom_left_side {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer_bottom_left_side p{
+        text-align: center;
+    }
+
+    .footer_bottom_right_side {
+        display: flex;
+        padding-top: 15px;
+        align-items: center;
+        justify-content: center;
+        column-gap: 8px;
+    }
+
+    .footer_subscribe_block_form form button img {
+        width: 12px;
+        height: 12px;
+    }
+}
